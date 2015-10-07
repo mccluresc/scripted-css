@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="scripted.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Do Now: Create a personal page</h2>
+					<ul>
+						<li>html</li>
+						<li>body</li>
+						<li>head</li>
+						<li>p</li>
+						<li>ul</li>
+						<li>li</li>
+					</ul>
+				</section>
+				<section>
+					<section data-transition="fade-out">
+						<h2>Review: A Basic Page</h2>
+					</section>
+					<section data-transition="fade-out fade-in">
+						<h2>Review: A Basic Page</h2>
+						<div style="background-color: blue; color:white; border:0.1em solid blue; text-align: left;">
+							&lt;html&gt;
+							<div style="background-color: blue; color: blue; margin:0.25em 1em;border:0.1em solid blue; ">
+								&lt;head&gt;<br/>&lt;/head&gt;
+							</div>
+							<div style="background-color: blue; color: blue; margin:0.25em 1em;border:0.1em solid blue; ">
+								&lt;body&gt;
+								<div style="background-color: blue; color: blue; margin:0.25em 1em;border:0.1em solid blue; ">
+									&lt;h1&gt;Scott McClure&lt;/h1&gt;
+								</div>
+								<div style="background-color: blue; color: blue; margin:0.25em 1em;border:solid 0.1em; ">
+									&lt;p&gt;Hi! My name is Scott McClure. I am a product manager at Fidessa and a real coffee geek.&lt;/p&gt;
+								</div>
+								&lt;/body&gt;
+							</div>
+							&lt;/html&gt;
+						</div>
+					</section>
+					<section data-transition="fade-out fade-in">
+						<h2>Review: A Basic Page</h2>
+						<div style="color:blue; border:0.1em solid blue; text-align: left;">
+							&lt;html&gt;
+							<div style="background-color: green; color: white; margin:0.25em 1em;border:0.1em solid green; ">
+								&lt;head&gt;<br/>&lt;/head&gt;
+							</div>
+							<div style="background-color: red; color: white; margin:0.25em 1em;border:0.1em solid red; ">
+								&lt;body&gt;
+								<div style="background-color: red; color: red; margin:0.25em 1em;border:0.1em solid red; ">
+									&lt;h1&gt;Scott McClure&lt;/h1&gt;
+								</div>
+								<div style="background-color: red; color: red; margin:0.25em 1em;border:solid 0.1em red; ">
+									&lt;p&gt;Hi! My name is Scott McClure. I am a product manager at Fidessa and a real coffee geek.&lt;/p&gt;
+								</div>
+								&lt;/body&gt;
+							</div>
+							&lt;/html&gt;
+						</div>
+					</section>
+					<section data-transition="fade-out fade-in">
+						<h2>Review: A Basic Page</h2>
+						<div style="color: blue; border:solid 0.1em; text-align: left;">
+							&lt;html&gt;
+							<div style="color: green; margin:0.25em 1em;border:solid 0.1em; ">
+								&lt;head&gt;<br/>&lt;/head&gt;
+							</div>
+							<div style="color: red; margin:0.25em 1em;border:solid 0.1em; ">
+								&lt;body&gt;
+								<div style="color: white; background-color: orange; margin:0.25em 1em;border:solid 0.1em orange; ">
+									&lt;h1&gt;Scott McClure&lt;/h1&gt;
+								</div>
+								<div style="color: white; background-color: purple; margin:0.25em 1em;border:solid 0.1em purple; ">
+									&lt;p&gt;Hi! My name is Scott McClure. I am a product manager at Fidessa and a real coffee geek.&lt;/p&gt;
+								</div>
+								&lt;/body&gt;
+							</div>
+							&lt;/html&gt;
+						</div>
+					</section>
+					<section data-transition="fade-out fade-in">
+						<h2>Review: A Basic Page</h2>
+						<div style="color: blue; border:solid 0.1em; text-align: left;">
+							&lt;html&gt;
+							<div style="color: green; margin:0.25em 1em;border:solid 0.1em; ">
+								&lt;head&gt;<br/>&lt;/head&gt;
+							</div>
+							<div style="color: red; margin:0.25em 1em;border:solid 0.1em; ">
+								&lt;body&gt;
+								<div style="color: orange; margin:0.25em 1em;border:solid 0.1em; ">
+									&lt;h1&gt;Scott McClure&lt;/h1&gt;
+								</div>
+								<div style="color: purple; margin:0.25em 1em;border:solid 0.1em; ">
+									&lt;p&gt;Hi! My name is Scott McClure. I am a product manager at Fidessa and a real coffee geek.&lt;/p&gt;
+								</div>
+								&lt;/body&gt;
+							</div>
+							&lt;/html&gt;
+						</div>
+					</section>
+				</section>
+				<section>
+					<section data-transition="fade-out">
+						<h2>Review: Parts of a Tag</h2>
+						<br/>
+						<br/>
+						<table style="padding: 0; margin: 0; border:0;">
+							<tr style="padding: 0; margin: 0; border:0;">
+								<td style="padding: 0; margin: 0; border:0;">&lt;</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&#9608;&#9608;&#9608;&#9608;</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&nbsp;&nbsp;</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;</td>
+								<td style="padding: 0; margin: 0; border:0;">="</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&#9608;&#9608;&#9608;&#9608;</td>
+								<td style="padding: 0; margin: 0; border:0;">"</td>
+								<td style="padding: 0; margin: 0; border:0;">&gt;</td>
+							</tr>
+						</table>
+					</section>
+					<section data-transition="fade-in fade-out">
+						<h2>Review: Parts of a Tag</h2>
+						<br/>
+						<br/>
+						<table style="padding: 0; margin: 0; border:0;">
+							<tr style="padding: 0; margin: 0; border:0;">
+								<td style="padding: 0; margin: 0; border:0;">&lt;</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&#9608;&#9608;&#9608;&#9608;</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&nbsp;&nbsp;</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&#9608;&#9608;&#9608;&#9608;&#9608;&#9608;</td>
+								<td style="padding: 0; margin: 0; border:0;">="</td>
+								<td style="color: grey; padding: 0; margin: 0; border:0;">&#9608;&#9608;&#9608;&#9608;</td>
+								<td style="padding: 0; margin: 0; border:0;">"</td>
+								<td style="padding: 0; margin: 0; border:0;">&gt;</td>
+							</tr>
+							<tr>
+								<td style="padding: 0; margin: 0; border:0;"></td>
+								<td style="text-align: center; font-style:italic; padding: 0; margin: 0; border:0;">name</td>
+								<td style="padding: 0; margin: 0; border:0;"></td>
+								<td style="font-style:italic; padding: 0; margin: 0; border:0;">attribute</td>
+								<td style="padding: 0; margin: 0; border:0;"></td>
+								<td style="font-style:italic; padding: 0; margin: 0; border:0;">value</td>
+								<td style="padding: 0; margin: 0; border:0;"></td>
+								<td style="padding: 0; margin: 0; border:0;"></td>
+							</tr>
+						</table>
+					</section>
+					<section data-transition="fade-in fade-out">
+						<h2>Review: Parts of a Tag</h2>
+						<br/>
+						<br/>
+						<table style="padding: 0; margin: 0; border:0;">
+							<tr style="padding: 0; margin: 0; border:0;">
+								<td style="padding: 0; margin: 0; border:0;">&lt;</td>
+								<td style="padding: 0; margin: 0; border:0;">img</td>
+								<td style="padding: 0; margin: 0; border:0;">&nbsp;&nbsp;</td>
+								<td style="padding: 0; margin: 0; border:0;">src</td>
+								<td style="padding: 0; margin: 0; border:0;">="</td>
+								<td style="padding: 0; margin: 0; border:0;">cutebunny.gif</td>
+								<td style="padding: 0; margin: 0; border:0;">"</td>
+								<td style="padding: 0; margin: 0; border:0;">&gt;</td>
+							</tr>
+						</table>
+					</section>
+				</section>
+				<section>
+					<section data-transition="fade-out">
+						<h2>Coloring</h2>
+						<img class="stretch" src="frogs.gif"/>
+					</section>
+					<section data-transition="fade-in">
+						<h2>Coloring</h2>
+		<pre>
+&lt;Frog/&gt;
+&lt;Frog/&gt;
+&lt;Frog/&gt;
+&lt;Frog/&gt;
+&lt;Frog/&gt;
+&lt;Frog/&gt;
+&lt;Flower/&gt;
+&lt;Flower/&gt;
+&lt;Flower/&gt;
+&lt;Lillipad/&gt;
+		</pre>
+				</section>
+					<section data-transition="fade-in fade-out">
+						<h2>Coloring</h2>
+						<img class="stretch" src="frogs-named.gif"/>
+					</section>
+					<section data-transition="fade-in fade-out">
+						<h2>Coloring</h2>
+		<pre>
+&lt;Frog id="Smiley"/&gt;
+&lt;Frog id="Timmy"/&gt;
+&lt;Frog id="BradPitt"/&gt;
+&lt;Frog id="Keisha"/&gt;
+&lt;Frog id="Baby"/&gt;
+&lt;Frog id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+		</pre>
+		<p>"id" attribute identifies a <b>specific</b> tag. Must be <b>unique</b>.</p>
+				</section>
+					<section data-transition="fade-in fade-out">
+						<h2>Coloring</h2>
+						<img class="stretch" src="frogs-named-colored.gif"/>
+					</section>
+					<section data-transition="fade-out">
+						<h2>Coloring</h2>
+						<ol>
+							<li>Color Smiley green.</li>
+							<li>Color Timmy green.</li>
+							<li>Color Kei$ha green.</li>
+							<li>Color Sleepy green.</li>
+							<li>Color Baby green.</li>
+							<li>Color Brad Pitt green.</li>
+						</ol>
+				</section>
+				<section data-transition="fade-in">
+					<h2>Coloring</h2>
+					<table>
+						<tr>
+							<td>
+								<pre style="width:400px">
+&lt;Frog id="Smiley"/&gt;
+&lt;Frog id="Timmy"/&gt;
+&lt;Frog id="BradPitt"/&gt;
+&lt;Frog id="Keisha"/&gt;
+&lt;Frog id="Baby"/&gt;
+&lt;Frog id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+								</pre>
+							</td>
+							<td >
+	<pre style="width:400px">
+#Smiley {
+	color: green;
+}
+#Timmy {
+	color: green;
+}
+#BradPitt {
+	color: green;
+}
+#Keisha {
+	color: green;
+}
+#Baby {
+	color: green;
+}
+#Sleepy {
+	color: green;
+}
+	</pre>
+</td>
+
+</tr>
+</table>
+</section>
+				<section data-transition="fade-in">
+					<h2>Coloring</h2>
+					<ol>
+						<li>Color frogs green.</li>
+						<li>Color flowers red.</li>
+						<li>Color lillipads light green.</li>
+					</ol>
+			</section>
+			<section data-transition="fade-in">
+				<h2>Coloring</h2>
+				<table>
+					<tr>
+						<td>
+							<pre style="width:400px">
+&lt;Frog id="Smiley"/&gt;
+&lt;Frog id="Timmy"/&gt;
+&lt;Frog id="BradPitt"/&gt;
+&lt;Frog id="Keisha"/&gt;
+&lt;Frog id="Baby"/&gt;
+&lt;Frog id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+							</pre>
+						</td>
+						<td >
+<pre style="width:400px">
+.frog {
+color: green;
+}
+.flower {
+color: red;
+}
+.lillipad {
+color: lightgreen;
+}
+</pre>
+</td>
+</tr>
+</table>
+</section>
+</section>
+<section>
+</section>
+			</div>
+
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
