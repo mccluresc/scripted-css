@@ -205,9 +205,16 @@
 						<h2>Coloring</h2>
 						<img class="stretch" src="frogs.gif"/>
 					</section>
+					<section data-transition="fade-out">
+						<h2>Coloring</h2>
+						<img class="stretch" src="frogs-colored-different.gif"/>
+					</section>
 					<section data-transition="fade-in">
 						<h2>Coloring</h2>
-		<pre>
+						<table>
+						<tr style="padding: 0; margin: 0; border:0;">
+							<td  style="vertical-align:top; padding: 0; margin: 0; border:0;">
+		<pre style="width:250px">
 &lt;Frog/&gt;
 &lt;Frog/&gt;
 &lt;Frog/&gt;
@@ -219,11 +226,37 @@
 &lt;Flower/&gt;
 &lt;Lillipad/&gt;
 		</pre>
+	</td>
+	<td style="padding: 0; margin: 0; border:0;">
+		<img style="width:600px" src="frogs-colored-different.gif"/>
+	</td>
+</tr>
+</table>
 				</section>
-					<section data-transition="fade-in fade-out">
-						<h2>Coloring</h2>
-						<img class="stretch" src="frogs-named.gif"/>
-					</section>
+				<section data-transition="fade-in">
+					<h2>Coloring</h2>
+					<table>
+					<tr style="padding: 0; margin: 0; border:0;">
+						<td  style="vertical-align:top; padding: 0; margin: 0; border:0;">
+	<pre style="width:250px">
+&lt;Frog id="Smiley"/&gt;
+&lt;Frog id="Timmy"/&gt;
+&lt;Frog id="BradPitt"/&gt;
+&lt;Frog id="Keisha"/&gt;
+&lt;Frog id="Baby"/&gt;
+&lt;Frog id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+	</pre>
+</td>
+<td style="padding: 0; margin: 0; border:0;">
+	<img style="width:600px" src="frogs-named-colored.gif"/>
+</td>
+</tr>
+</table>
+			</section>
 					<section data-transition="fade-in fade-out">
 						<h2>Coloring</h2>
 		<pre>
@@ -240,21 +273,28 @@
 		</pre>
 		<p>"id" attribute identifies a <b>specific</b> tag. Must be <b>unique</b>.</p>
 				</section>
-					<section data-transition="fade-in fade-out">
-						<h2>Coloring</h2>
-						<img class="stretch" src="frogs-named-colored.gif"/>
-					</section>
-					<section data-transition="fade-out">
-						<h2>Coloring</h2>
-						<ol>
-							<li>Color Smiley green.</li>
-							<li>Color Timmy green.</li>
-							<li>Color Kei$ha green.</li>
-							<li>Color Sleepy green.</li>
-							<li>Color Baby green.</li>
-							<li>Color Brad Pitt green.</li>
-						</ol>
-				</section>
+
+				<section data-transition="fade-in">
+					<h2>Coloring</h2>
+					<table>
+					<tr style="padding: 0; margin: 0; border:0;">
+						<td  style="vertical-align:top; padding: 0; margin: 0; border:0;">
+							<ol style="width:500px">
+								<li>Color Smiley purple.</li>
+								<li>Color Timmy green.</li>
+								<li>Color Kei$ha blue.</li>
+								<li>Color Sleepy tan.</li>
+								<li>Color Baby pink.</li>
+								<li>Color Brad Pitt lavender.</li>
+							</ol>
+</td>
+<td style="padding: 0; margin: 0; border:0;">
+	<img style="width:500px" src="frogs-named-colored.gif"/>
+</td>
+</tr>
+</table>
+			</section>
+
 				<section data-transition="fade-in">
 					<h2>Coloring</h2>
 					<table>
@@ -276,22 +316,22 @@
 							<td >
 	<pre style="width:400px">
 #Smiley {
-	color: green;
+	color: purple;
 }
 #Timmy {
 	color: green;
 }
 #BradPitt {
-	color: green;
+	color: lavender;
 }
 #Keisha {
-	color: green;
+	color: blue;
 }
 #Baby {
-	color: green;
+	color: pink;
 }
 #Sleepy {
-	color: green;
+	color: tan;
 }
 	</pre>
 </td>
@@ -299,14 +339,29 @@
 </tr>
 </table>
 </section>
-				<section data-transition="fade-in">
-					<h2>Coloring</h2>
-					<ol>
-						<li>Color frogs green.</li>
-						<li>Color flowers red.</li>
-						<li>Color lillipads light green.</li>
-					</ol>
-			</section>
+
+<section data-transition="fade-out">
+	<h2>Coloring</h2>
+	<img class="stretch" src="frogs-colored.gif"/>
+</section>
+<section data-transition="fade-in">
+<h2>Coloring</h2>
+<table>
+<tr style="padding: 0; margin: 0; border:0;">
+	<td  style="vertical-align:top; padding: 0; margin: 0; border:0;">
+		<ol style="width:500px">
+			<li>Color frogs green.</li>
+			<li>Color flowers red.</li>
+			<li>Color lillipads light green.</li>
+		</ol>
+</td>
+<td style="padding: 0; margin: 0; border:0;">
+<img style="width:500px" src="frogs-colored.gif"/>
+</td>
+</tr>
+</table>
+</section>
+
 			<section data-transition="fade-in">
 				<h2>Coloring</h2>
 				<table>
@@ -327,13 +382,13 @@
 						</td>
 						<td >
 <pre style="width:400px">
-.frog {
+frog {
 color: green;
 }
-.flower {
+flower {
 color: red;
 }
-.lillipad {
+lillipad {
 color: lightgreen;
 }
 </pre>
@@ -341,6 +396,112 @@ color: lightgreen;
 </tr>
 </table>
 </section>
+<section data-transition="fade-out">
+	<h2>Coloring</h2>
+	<img class="stretch" src="frogs-colored2.gif"/>
+</section>
+<section data-transition="fade-in">
+	<h2>Coloring</h2>
+	<table>
+	<tr style="padding: 0; margin: 0; border:0;">
+		<td  style="vertical-align:top; padding: 0; margin: 0; border:0;">
+<pre style="width:450px">
+&lt;Frog class="top" id="Smiley"/&gt;
+&lt;Frog class="middle" id="Timmy"/&gt;
+&lt;Frog class="middle" id="BradPitt"/&gt;
+&lt;Frog class="bottom" id="Keisha"/&gt;
+&lt;Frog class="bottom" id="Baby"/&gt;
+&lt;Frog class="bottom" id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+</pre>
+</td>
+<td style="padding: 0; margin: 0; border:0;">
+<img style="width:450px" src="frogs-colored2.gif"/>
+</td>
+</tr>
+</table>
+</section>
+	<section data-transition="fade-in fade-out">
+		<h2>Coloring</h2>
+<pre>
+&lt;Frog class="top" id="Smiley"/&gt;
+&lt;Frog class="middle" id="Timmy"/&gt;
+&lt;Frog class="middle" id="BradPitt"/&gt;
+&lt;Frog class="bottom" id="Keisha"/&gt;
+&lt;Frog class="bottom" id="Baby"/&gt;
+&lt;Frog class="bottom" id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+</pre>
+<p>"class" attribute identifies <b>similar</b> tags. May be used on multiple tags.</p>
+</section>
+
+<section data-transition="fade-in">
+<h2>Coloring</h2>
+<table>
+<tr style="padding: 0; margin: 0; border:0;">
+	<td  style="vertical-align:top; padding: 0; margin: 0; border:0;">
+		<ol style="width:500px">
+			<li>Color bottom frogs green.</li>
+			<li>Color middle frogs purple.</li>
+			<li>Color top frogs blue.</li>
+			<li>Color flowers red.</li>
+			<li>Color lillipads light green.</li>
+		</ol>
+</td>
+<td style="padding: 0; margin: 0; border:0;">
+<img style="width:500px" src="frogs-colored2.gif"/>
+</td>
+</tr>
+</table>
+</section>
+
+			<section data-transition="fade-in">
+				<h2>Coloring</h2>
+				<table>
+					<tr>
+						<td>
+							<pre style="width:450px">
+&lt;Frog class="top" id="Smiley"/&gt;
+&lt;Frog class="middle" id="Timmy"/&gt;
+&lt;Frog class="middle" id="BradPitt"/&gt;
+&lt;Frog class="bottom" id="Keisha"/&gt;
+&lt;Frog class="bottom" id="Baby"/&gt;
+&lt;Frog class="bottom" id="Sleepy"/&gt;
+&lt;Flower id="left"/&gt;
+&lt;Flower id="center"/&gt;
+&lt;Flower id="right"/&gt;
+&lt;Lillipad/&gt;
+							</pre>
+						</td>
+						<td >
+<pre style="width:400px">
+frog .bottom {
+  color: green;
+}
+frog .middle {
+  color: purple;
+}
+frog .top {
+  color: blue;
+}
+flower {
+  color: red;
+}
+lillipad {
+  color: lightgreen;
+}
+</pre>
+</td>
+</tr>
+</table>
+</section>
+
 </section>
 <section>
 <section data-transition="fade-out">
